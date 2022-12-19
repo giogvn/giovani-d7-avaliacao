@@ -1,8 +1,0 @@
-﻿USE [db_7];
-GO
-
-
-CREATE TABLE Users(
-	email VARCHAR(255) PRIMARY KEY,
-	password VARCHAR(255) UNIQUE
-);
